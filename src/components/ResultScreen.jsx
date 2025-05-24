@@ -5,10 +5,10 @@ export default function ResultScreen({ score, total, onRestart }) {
   const percent = (score / total) * 100;
 
   const getMessage = () => {
-    if (percent === 100) return "Фантастика! Ты мастер!";
-    if (percent >= 70) return "Отличный результат!";
-    if (percent >= 50) return "Хорошо, но можно лучше!";
-    return "Ничего, ты справишься в следующий раз!";
+    // if (percent === 100) return "Фантастика! Ты мастер!";
+    // if (percent >= 70) return "Отличный результат!";
+    // if (percent >= 50) return "Хорошо, но можно лучше!";
+    // return "Ничего, ты справишься в следующий раз!";
   };
   return (
     <div className="result-container">
