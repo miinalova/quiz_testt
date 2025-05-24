@@ -1,0 +1,97 @@
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+  background: linear-gradient(135deg, #ffecd2, #fdeec3);
+  margin: 0;
+  padding: 0;
+}
+
+.home-screen, .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1, h2 {
+  color: #444;
+}
+
+ .option-button{
+  display: block;
+  font-size: 16px;
+  margin-top: 12px;
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: #57b3c8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.option-button:hover{
+  background-color: #4fc7e1de;
+}
+
+.option-button.correct {
+  background-color: #0ace0043;
+  color: #08a600a9;;
+}
+
+.option-button.incorrect {
+  background-color: #fd5c6954;
+  color: #c54550a9;
+}
+
+
+.button{
+  font-size: 16px;
+  padding: 1rem 2rem;
+  background-color: #fb965c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+
+.button:hover{
+  background-color:#f99c67 ;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 12px;
+  background-color: #e5e7eb;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+
+
+.progress {
+  height: 100%;
+  background-color: #0ace009f;
+  transition: width 0.3s ease;
+}
+
+.start-button:hover,
+.option-button:hover,
+.button:hover {
+  transform: scale(1.05);
+}
+
