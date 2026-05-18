@@ -38,8 +38,7 @@
 
 ## 🌐 Connect With Me
 
-- Telegram: @yourusername
-- Instagram: @yourusername
+- Telegram: @mnlvaa
 
 ---
 
