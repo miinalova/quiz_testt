@@ -1,4 +1,4 @@
-# ✨ Hey, I'm Amina
+# ✨ Hey, I'm Amie
 
 <div align="center">
 
